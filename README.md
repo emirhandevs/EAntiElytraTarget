@@ -1,5 +1,7 @@
 # 🛡️ EAntiElytraTarget
 
+📦 **Download on Modrinth:** https://modrinth.com/plugin/eantielytratarget
+
 Open-source anti-elytra-target plugin designed for **BoxPvP** Minecraft servers to prevent unfair mid-air combat advantages and keep PvP balanced.
 
 ---
@@ -25,7 +27,7 @@ Open-source anti-elytra-target plugin designed for **BoxPvP** Minecraft servers 
 
 ## ⚙️ Installation & Building
 
-1. Download the latest `.jar` release from **Modrinth** (or build from source).
+1. Download the latest `.jar` release from [Modrinth](https://modrinth.com/plugin/eantielytratarget) (or build from source).
 2. Place the `.jar` file into your server's `/plugins` folder.
 3. Restart the server to generate default configuration files.
 4. Configure `plugins/EAntiElytraTarget/config.yml` and run `/eantielytratarget reload`.
