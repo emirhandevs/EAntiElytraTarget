@@ -1,0 +1,28 @@
+# eAntiElytraTarget - Messages (English)
+# Placeholders: %prefix% %player% %check% %info% %vl% %threshold%
+
+no-permission: "%prefix%&cYou do not have permission to do that."
+reload-success: "%prefix%&aConfiguration reloaded and caches cleared."
+usage: "%prefix%&7Usage: &e/eantitarget <reload|logs|alerts>"
+
+alert: "%prefix%&7[&f%check%&7] &e%player% &8» &csuspicious &7(%info%) &8[&f%vl%&7/&f%threshold%&8]"
+console-log: "[AntiElytra] %player% | %check% | %info% | VL %vl%/%threshold%"
+
+kick-reason: "%prefix%&cElytra cheat detected!\n&7Check: &f%check%\n&7Detail: &f%info%\n&8eAntiElytraTarget"
+ban-reason: "%prefix%&cBanned for elytra cheating.\n&7Check: &f%check%\n&7Detail: &f%info%\n&8eAntiElytraTarget"
+
+punished-kick: "%prefix%&e%player% &7was kicked &8(&f%check%&8)"
+punished-ban: "%prefix%&e%player% &7was banned &8(&f%check%&8)"
+
+animation-title-1: "&a&lHello, cheater!"
+animation-subtitle-1: "&fSomething smells like a cheat around here..."
+animation-title-2: "&c&lYep, it was you!"
+animation-subtitle-2: "&fSee you later. Adios!"
+
+log-deleted: "%prefix%&aLog entry deleted."
+log-empty: "%prefix%&7No logs yet."
+
+alerts-enabled: "%prefix%&aAlert notifications &fenabled&a."
+alerts-disabled: "%prefix%&cAlert notifications &fdisabled&c."
+alerts-status-on: "%prefix%&7Alerts: &aON"
+alerts-status-off: "%prefix%&7Alerts: &cOFF"

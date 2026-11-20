@@ -1,0 +1,38 @@
+# eAntiElytraTarget - Check settings
+# punishment: KICK | BAN | NONE
+
+auto-firework:
+  enabled: true
+  max-ms-threshold: 70
+  violation-threshold: 4
+  punishment: KICK
+
+rotation-consistency:
+  enabled: true
+  sample-size: 8
+  max-std-dev-threshold: 0.006
+  min-mean-delta: 0.08
+  violation-threshold: 3
+  punishment: KICK
+
+center-mass-lock:
+  enabled: true
+  max-angle-deviation: 0.006
+  consecutive-hits-threshold: 4
+  violation-threshold: 2
+  punishment: KICK
+
+snap-to-target:
+  enabled: true
+  watch-ticks: 3
+  min-snap-angle: 25.0
+  max-lock-angle: 2.0
+  max-target-distance: 55.0
+  violation-threshold: 2
+  punishment: KICK
+
+no-look-hit:
+  enabled: true
+  max-allowed-angle: 70.0
+  violation-threshold: 5
+  punishment: KICK

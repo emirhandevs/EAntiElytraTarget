@@ -1,0 +1,30 @@
+# eAntiElytraTarget - Main configuration
+prefix: "&8[&bAntiElytra&8] &f"
+
+# VL decay interval (seconds)
+decay-time-seconds: 25
+
+# Only run combat/firework checks while the player is gliding
+check-only-gliding: true
+
+# Console logging
+console-log: true
+
+# Staff chat alerts (global default; players can toggle with /eantitarget alerts)
+alerts: true
+
+# Punish operators when they flag (recommended true for testing)
+punish-ops: true
+
+# Behavioral baseline comparison
+behavior:
+  enabled: true
+  min-samples: 20
+  anomaly-multiplier: 2.2
+
+# Kick animation (llamas + titles) before kick/ban
+kick-animation:
+  enabled: true
+  duration-seconds: 4
+  llama-count: 6
+  llama-radius: 2.2

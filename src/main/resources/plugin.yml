@@ -1,0 +1,23 @@
+name: eAntiElytraTarget
+version: '1.1.0'
+main: com.eantitarget.EAntiTargetPlugin
+api-version: '1.20'
+authors: [eAntiElytraTarget]
+description: Advanced elytra combat anti-cheat for Paper/Spigot (AutoFirework, aim, snap, behavior).
+website: https://modrinth.com
+commands:
+  eantitarget:
+    description: eAntiElytraTarget management
+    aliases: [eat, antielytra, eantielytra]
+    usage: /eantitarget <reload|logs|alerts>
+permissions:
+  eantitarget.admin:
+    description: Full admin access
+    default: op
+  eantitarget.alerts:
+    description: Receive and toggle cheat alerts
+    default: op
+  eantitarget.bypass:
+    description: Bypass punishments (logs still apply unless configured)
+    default: false
+softdepend: []
